@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=New+Amsterdam&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Grey+Qo&family=New+Amsterdam&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=New+Amsterdam&family=Shadows+Into+Light&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    min-height: 100vh;
+    font-family: "New Amsterdam", sans-serif;
+}
+header
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    
+}
+#Name
+{
+    font-family: "Grey Qo", cursive;
+    width: 25%;
+    height: auto;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    padding-left: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+#Links
+{
+    display: flex;
+    width: 60%;
+    height: auto;
+    font-size: 35px;
+    justify-content: space-between;
+    padding:10px 20px 10px 20px;
+    align-items: center;
+}
+#Links a
+{
+position: relative;
+cursor: pointer;
+}
+#Links a::after
+{
+content: '';
+position: absolute;
+width: 0;
+height: 2px;
+background-color: black;
+bottom: 0;
+left: 0;
+transition: width 1s;
+}
+#Links a:hover::after
+{
+    width: 100%;
+}
+#SignIn
+{
+    width: 15%;
+    height: auto;
+    background-color: inherit;
+    color: black;
+    font-size: 35px;
+    font-family: "New Amsterdam", sans-serif;
+    transition: 1s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#SignIn:hover
+{
+ background-color: black;
+ color: aliceblue;
+}
+
+
+
+
+
+
+
+footer{
+    width: 95%;
+    height: auto;
+    margin: calc(2.5%);
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 25px;
+    padding: 25px;
+    color: aliceblue;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+footer p
+{
+font-size: 20px;
+padding-top: 5px;
+}
+#last
+{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 25px;
+    text-align: center;
+}
+#ICons
+{
+    margin-top: 20px;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+#ICons a
+{
+    color: aliceblue;
+    margin-left: 20px ;
+    font-size: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 100000px;
+    padding: 10px;
+    cursor: pointer;
+}
+#ICons a:hover
+{
+    background-color: rgba(249, 249, 249, 0.478);
+}
+#End_pra
+{
+    text-align: center;
+    font-size:15px ;
+}
